@@ -15,7 +15,7 @@ try:
 except:
     print("cant not open port")
 
-relay1_ON = [1,6,0,0,0,255,200,91]
+relay1_ON = [1,6,0,0,0,255,201,138]
 relay1_OFF = [1,6,0,0,0,0,137,202]
 
 relay2_ON = [2,6,0,0,0,255,201,185]
@@ -82,35 +82,36 @@ while True:
     time.sleep(2)
     print("Relay 1 OFF")
     ser.write(relay1_OFF)
-    
+    time.sleep(2)
     print("Relay 2 ON")
     ser.write(relay2_ON)
     time.sleep(2)
     print("Relay 2 OFF")
     ser.write(relay2_OFF)
-    
+    time.sleep(2)
     print("Relay 3 ON")
     ser.write(relay3_ON)
     time.sleep(2)
     print("Relay 3 OFF")
     ser.write(relay3_OFF)
-    
+    time.sleep(2)
     print("Relay 4 ON")
     ser.write(relay4_ON)
     time.sleep(2)
     print("Relay 4 OFF")
     ser.write(relay4_OFF)
-    
+    time.sleep(2)
     print("Relay 5 ON")
     ser.write(relay5_ON)
     time.sleep(2)
     print("Relay 5 OFF")
     ser.write(relay5_OFF)
-    
+    time.sleep(2)
     print("Relay 6 ON")
     ser.write(relay6_ON)
     time.sleep(2)
     print("Relay 6 OFF")
     ser.write(relay6_OFF)
+    time.sleep(2)
 
 
