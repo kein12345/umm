@@ -50,30 +50,30 @@ def setdevice2(state):
 
 def setdevice3(state):
     if state == True:
-        ser.write(relay1_ON)
+        ser.write(relay3_ON)
     else:
-        ser.write(relay1_OFF)
+        ser.write(relay3_OFF)
 
 
 def setdevice4(state):
     if state == True:
-        ser.write(relay2_ON)
+        ser.write(relay4_ON)
     else:
-        ser.write(relay2_OFF)
+        ser.write(relay4_OFF)
 
 
 def setdevice5(state):
     if state == True:
-        ser.write(relay1_ON)
+        ser.write(relay5_ON)
     else:
-        ser.write(relay1_OFF)
+        ser.write(relay5_OFF)
 
 
 def setdevice6(state):
     if state == True:
-        ser.write(relay2_ON)
+        ser.write(relay6_ON)
     else:
-        ser.write(relay2_OFF)
+        ser.write(relay6_OFF)
 
 
 while True:
