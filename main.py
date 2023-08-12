@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import *
+import time
 import serial.tools.list_ports
 # window = tk.Tk()
 # window.title("iot project")
