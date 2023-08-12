@@ -9,7 +9,7 @@ import serial.tools.list_ports
 # print("Size:", screen_width, screen_height)
 
 try:
-    ser = serial.Serial(port="COM5",baudrate=9600)
+    ser = serial.Serial(port="/dev/ttyAMA2",baudrate=9600)
     print("success")
 except:
     print("cant not open port")
